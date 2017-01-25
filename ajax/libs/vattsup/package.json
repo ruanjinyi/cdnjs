@@ -1,1 +1,31 @@
-init
+{
+  "author": "raunjinyi",
+  "name": "vattsup",
+  "version": "0.0.1",
+  "filename": "js/vattsup.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruanjinyi/vattsup.git"
+  },
+  "keywords": [
+    "examination",
+    "create",
+    "script"
+  ],
+  "homepage": "https://github.com/ruanjinyi/vattsup",
+  "license": "Eclipse Public License 1.0",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/ruanjinyi/vattsup.git",
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "css/*",
+          "js/*"
+        ]
+      }
+    ]
+  },
+  "description": "Support create exam for partners"
+}
